@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "inputchannel",
+      "type": "java.lang.String",
+      "description": "Description for inputchannel."
+    }
+
+  ] }
