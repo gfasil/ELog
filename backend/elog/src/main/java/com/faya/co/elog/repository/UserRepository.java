@@ -1,7 +1,7 @@
 package com.faya.co.elog.repository;
 
-import com.faya.co.elog.domain.User;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.faya.co.elog.domain.Users;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface UserRepository extends JpaRepository<User,Long> {
+public interface UserRepository extends MongoRepository<Users,Long> {
 }

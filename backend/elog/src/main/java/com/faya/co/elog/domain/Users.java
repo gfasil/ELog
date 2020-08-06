@@ -1,12 +1,14 @@
 package com.faya.co.elog.domain;
 
-import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.MongoId;
 
 import java.time.LocalDate;
 
-@Data
-public class User {
-
+@Document
+public class Users {
+    @MongoId
+    private Long id;
     private String firstName;
     private String lastName;
     private String email;
