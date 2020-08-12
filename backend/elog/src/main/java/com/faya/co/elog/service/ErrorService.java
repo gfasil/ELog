@@ -19,7 +19,7 @@ public class ErrorService implements CrudService<Error> {
     }
 
     @Override
-    public void delete() {
+    public void delete(Long id) {
 
     }
 }
